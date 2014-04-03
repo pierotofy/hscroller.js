@@ -2,7 +2,7 @@
 
 This is a simple horizontal scrolling single page web template. Feel free to use/fork/share it.
 
-* [Live demo](http://www.pierotoffanin.com/scrolling-demo/#3.html)
+* [Live demo](http://www.pierotoffanin.com/scrolling-demo/#)
 * [Tutorial](http://www.pierotoffanin.com/2014/03/horizontal-scrolling-single-page-website-done-right/)
 
 ## Features
