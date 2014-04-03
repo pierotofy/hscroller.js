@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<title>Horizontal scrolling single page web template</title>
+
+	<link rel="stylesheet" href="css/scrolling.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	window.jQuery || document.write("<script src='js/jquery-1.11.0.min.js'>\x3C/script>");
+	</script>
+	<script src="js/modernizr.js"></script>
+	<script>
+	// Do not use Hammer for IE <= 8
+	if (window.addEventListener){
+		document.write("<script defer src=\"js/hammer.min.js\">\x3C/script>");
+	}
+	</script>
+	<script defer src="js/hscroller.js"></script>
+	<script defer src="js/overthrow.min.js"></script>
+	<script defer src="js/jquery.ba-bbq.min.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="credits">
+			 <a href="https://github.com/pierotofy/hscroller.js/archive/master.zip">download</a> | read the <a href="http://www.pierotoffanin.com/2014/03/horizontal-scrolling-single-page-website-done-right/">tutorial</a> | fork on <a href="https://github.com/pierotofy/hscroller.js">github</a><br/><br/>made with ❤ by <a href="https://www.twitter.com/pierotofy">@pierotofy</a>
+		</div>
+		<div class="padder">
+			<a href="#" data-page="0">Home</a>
+			<a href="#1.html" data-page="1">Hash</a>
+			<a href="#2.html" data-page="2">Transition</a>
+			<a href="#3.html" data-page="3">Features</a>
+		</div>
+	</div>
+	<div id="content">
+		<ul id="pages" class="animate">
+			<li id="page1" class="page overthrow">
+				<h1>hscroller.js - a horizontal scrolling single page web template</h1>
+				<h2>For starters, click and drag across this page, or use the arrow keys on your keyboard</h2>
+			</li>
+			<li id="page2" class="page overthrow">
+				<h1>Notice that the hashtag in the URL also changed</h1>
+				<h2>Click on the "Transition" button</h2>
+			</li>
+			<li id="page3" class="page overthrow">
+				<h1>The transition is instantaneous</h1>
+				<h2>Just like navigating a classical website. Well, just much faster.</h2>
+			</li>
+			<li id="page4" class="page overthrow">
+				<h1>Try it!</h1>
+
+				<div class="features">
+					<ul>
+						<li>✓ Supports swipe gestures for touch-enabled devices</li>
+						<li>✓ Handles vertical scrolling in legacy browsers</li>
+						<li>✓ Hash routing for easy bookmarking/linking</li>
+						<li>✓ IE7+, Firefox 3.6+, Safari 4+ support</li>
+						<li>✓ Responsive</li>						
+						<li>✓ MIT permissive license</li>
+					</ul>
+				</div>
+
+				<div class="like">Like it? <a target="_blank" href="https://twitter.com/share?url=http://www.pierotoffanin.com/scrolling-demo/#">Share the knowledge</a></div>
+			</li>
+		</ul>
+	</div>
+
+<script>
+$(function onLoad(){
+	var scroller = HScroller.create("#pages"); // specify container element
+
+	// showPage allows you to pragmatically change a change
+	// the second parameter allows you specify whether you want to animate the transition
+
+	//scroller.showPage(pagenum, true); 
+});
+</script>
+</body>
+</html>
