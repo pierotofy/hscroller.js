@@ -23,13 +23,19 @@ This is a simple horizontal scrolling single page web template. Feel free to use
 
 ### To add a new page, simply add a new element:
 
-`<li class="page overthrow">
+```html
+<li class="page overthrow">
 	content here
-</li>`
+</li>
+```
+
+The pages are numbered by their position in the DOM. So the first <li> element is page 0, the second is page 1, etc.
 
 ### To link a page use:
 
-`<a href="#page.html" data-page="N">Link</a>`
+```html
+<a href="#page.html" data-page="N">Link</a>
+```
 
 Replace N with an integer >= 0, first page starts at 0.
 
