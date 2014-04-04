@@ -29,7 +29,7 @@ This is a simple horizontal scrolling single page web template. Feel free to use
 </li>
 ```
 
-The pages are numbered by their position in the DOM. So the first <li> element is page 0, the second is page 1, etc.
+The pages are numbered by their position in the DOM. So the first element is page 0, the second is page 1, etc.
 
 ### To link a page use:
 
