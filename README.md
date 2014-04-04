@@ -29,7 +29,9 @@ This is a simple horizontal scrolling single page web template. Feel free to use
 
 ### To link a page use:
 
-`<a href="#N.html" data-page="N">Link</a>`
+`<a href="#page.html" data-page="N">Link</a>`
 
-(replace N with an integer >= 0), first page starts at 0.
+Replace N with an integer >= 0, first page starts at 0.
+
+Replace page.html with a unique name for your page.
 
