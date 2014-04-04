@@ -173,12 +173,3 @@ var HScroller = {
 		}
 	}	
 };
-
-$(function onLoad(){
-    var scroller = HScroller.create("#pages"); // specify container element
-
-    // showPage allows you to pragmatically change a change
-    // the second parameter allows you specify whether you want to animate the transition
-
-    //scroller.showPage(pagenum, true); 
-});

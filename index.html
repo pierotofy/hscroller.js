@@ -14,15 +14,6 @@
 	window.jQuery || document.write("<script src='js/jquery-1.11.0.min.js'>\x3C/script>");
 	</script>
 	<script src="js/modernizr.js"></script>
-	<script>
-	// Do not use Hammer for IE <= 8
-	if (window.addEventListener){
-		document.write("<script defer src=\"js/hammer.min.js\">\x3C/script>");
-	}
-	</script>
-	<script defer src="js/hscroller.js"></script>
-	<script defer src="js/overthrow.min.js"></script>
-	<script defer src="js/jquery.ba-bbq.min.js"></script>
 </head>
 
 <body>
@@ -69,5 +60,26 @@
 			</li>
 		</ul>
 	</div>
+	
+<script>
+// Do not use Hammer for IE <= 8
+if (window.addEventListener){
+	document.write("<script src=\"js/hammer.min.js\">\x3C/script>");
+}
+</script>
+<script src="js/hscroller.js"></script>
+<script src="js/overthrow.min.js"></script>
+<script src="js/jquery.ba-bbq.min.js"></script>
+
+<script>
+$(function onLoad(){
+    var scroller = HScroller.create("#pages"); // specify container element
+
+    // showPage allows you to pragmatically change a change
+    // the second parameter allows you specify whether you want to animate the transition
+
+    //scroller.showPage(pagenum, true); 
+});
+</script>
 </body>
 </html>
