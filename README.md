@@ -1,6 +1,6 @@
 ## hscroller.js
 
-This is a simple horizontal scrolling single page web template. It provides a more intuitive user experience when using touch devices while preserving the expectations of desktop users. Feel free to use/fork/share it.
+This is a simple horizontal scrolling single page web template. It provides a more intuitive user experience when using touch devices while preserving the classical desktop feel. Feel free to use/fork/share it.
 
 * [Live demo](http://www.pierotoffanin.com/scrolling-demo/#)
 * [Tutorial](http://www.pierotoffanin.com/2014/03/horizontal-scrolling-single-page-website-done-right/)
